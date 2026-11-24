@@ -1,0 +1,347 @@
+{
+  "services": [
+    {
+      "id": "day-visit",
+      "title": "Day Visit / Picnic",
+      "category": "Day Visit",
+      "description": "Enjoy peaceful outdoor gardens, clean rest areas, braai stands, and serene picnic spots.",
+      "base_price": 100.0,
+      "pricing_type": "day_visit",
+      "requires_weekend_block": false
+    },
+    {
+      "id": "photoshoot",
+      "title": "Photoshoot Venue",
+      "category": "Photoshoot",
+      "description": "Ideal location for wedding photoshoots, family portraits, matric dance, or commercial shoots.",
+      "base_price": 1500.0,
+      "pricing_type": "flat",
+      "requires_weekend_block": false
+    },
+    {
+      "id": "weddings-functions",
+      "title": "Weddings & Functions",
+      "category": "Weddings & Functions",
+      "description": "The perfect outdoor setting for elegant garden weddings, farewell functions, business & corporate events, anniversary celebrations, and private milestone gatherings.",
+      "base_price": 10000.0,
+      "pricing_type": "flat",
+      "requires_weekend_block": true
+    },
+    {
+      "id": "events-festivals",
+      "title": "Events & Festivals",
+      "category": "Events & Festivals",
+      "description": "Complete resort venue rental for large corporate events, music festivals, and community celebrations. Includes full setup prep & 3-day weekend reservation.",
+      "base_price": 12000.0,
+      "pricing_type": "event",
+      "requires_weekend_block": true
+    }
+  ],
+  "bookings": [
+    {
+      "booking_id": 1001,
+      "full_name": "Luyanda Selepe",
+      "email": "luyandaintern1@gmail.com",
+      "phone": "0111111",
+      "service_id": "events-festivals",
+      "service_title": "Events & Festivals",
+      "booking_date": "2026-11-27",
+      "blocked_dates": [
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "weekend_blocked": true,
+      "total_price": 12000.0,
+      "guest_count": 1,
+      "notes": "",
+      "status": "Cancelled",
+      "created_at": "2026-11-22 23:04:52",
+      "whatsapp_url": "https://wa.me/27839545203?text=%2AEZIMPANDENI%20RESORT%20-%20NEW%20RESERVATION%20RECEIPT%2A%0A%2ABooking%20ID%3A%2A%20%23EZP-1001%0A%2ACustomer%3A%2A%20Luyanda%20Selepe%0A%2APhone%3A%2A%200111111%0A%2AEmail%3A%2A%20luyandaintern1%40gmail.com%0A%2APackage%3A%2A%20Events%20%26%20Festivals%0A%2ASelected%20Date%3A%2A%202026-11-27%0A%2ADates%20Reserved%3A%2A%202026-11-27%2C%202026-11-28%2C%202026-11-29%0A%2AGuests%3A%2A%201%0A%2ATotal%20Amount%3A%2A%20R12%2C000.00%0A%2ANotes%3A%2A%20None",
+      "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1001\nStatus               : Confirmed\nCustomer Name        : Luyanda Selepe\nPhone                : 0111111\nEmail                : luyandaintern1@gmail.com\nPackage              : Events & Festivals\nSelected Date        : 2026-11-27\nReserved / Blocked   : 2026-11-27, 2026-11-28, 2026-11-29\nGuests               : 1\nTotal Amount         : R12,000.00\nNotes                : None\nIssued At            : 2026-11-22 23:04:52\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================"
+    },
+    {
+      "booking_id": 1002,
+      "full_name": "Luyanda Selepe",
+      "email": "luyandaintern1@gmail.com",
+      "phone": "0428739",
+      "service_id": "events-festivals",
+      "service_title": "Events & Festivals",
+      "booking_date": "2026-11-23",
+      "blocked_dates": [
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "weekend_blocked": true,
+      "total_price": 12000.0,
+      "guest_count": 1,
+      "notes": "Check check check",
+      "status": "Pending",
+      "created_at": "2026-11-22 23:12:01",
+      "whatsapp_url": "https://wa.me/27839545203?text=%2AEZIMPANDENI%20RESORT%20-%20NEW%20RESERVATION%20RECEIPT%2A%0A%2ABooking%20ID%3A%2A%20%23EZP-1002%0A%2ACustomer%3A%2A%20Luyanda%20Selepe%0A%2APhone%3A%2A%200428739%0A%2AEmail%3A%2A%20luyandaintern1%40gmail.com%0A%2APackage%3A%2A%20Events%20%26%20Festivals%0A%2ASelected%20Date%3A%2A%202026-11-23%0A%2ADates%20Reserved%3A%2A%202026-11-20%2C%202026-11-21%2C%202026-11-22%0A%2AGuests%3A%2A%201%0A%2ATotal%20Amount%3A%2A%20R12%2C000.00%0A%2ANotes%3A%2A%20Check%20check%20check",
+      "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1002\nStatus               : Pending\nCustomer Name        : Luyanda Selepe\nPhone                : 0428739\nEmail                : luyandaintern1@gmail.com\nPackage              : Events & Festivals\nSelected Date        : 2026-11-23\nReserved / Blocked   : 2026-11-20, 2026-11-21, 2026-11-22\nGuests               : 1\nTotal Amount         : R12,000.00\nNotes                : Check check check\nIssued At            : 2026-11-22 23:12:01\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================",
+      "whatsapp_status": {
+        "sent": false,
+        "provider": "unconfigured",
+        "detail": "Automatic WhatsApp API is not configured yet. Add Meta WhatsApp Cloud API (WHATSAPP_PHONE_NUMBER_ID, WHATSAPP_ACCESS_TOKEN) or Twilio env vars (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_FROM) to auto-send to +27839545203."
+      },
+      "email_status": {
+        "sent": false,
+        "mode": "local_log",
+        "detail": "Receipt prepared for luyandaintern1@gmail.com. Set SMTP_HOST, SMTP_USER, and SMTP_PASS environment variables for live SMTP email dispatch.",
+        "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1002\nStatus               : Confirmed\nCustomer Name        : Luyanda Selepe\nPhone                : 0428739\nEmail                : luyandaintern1@gmail.com\nPackage              : Events & Festivals\nSelected Date        : 2026-11-23\nReserved / Blocked   : 2026-11-20, 2026-11-21, 2026-11-22\nGuests               : 1\nTotal Amount         : R12,000.00\nNotes                : Check check check\nIssued At            : 2026-11-22 23:12:01\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================"
+      }
+    },
+    {
+      "booking_id": 1003,
+      "reference": "EZP-1003",
+      "full_name": "vkdlsl",
+      "email": "eiowfgfw@gmail.com",
+      "phone": "0790078998",
+      "service_id": "day-visit",
+      "service_title": "Day Visit / Picnic",
+      "booking_date": "2026-11-24",
+      "blocked_dates": [
+        "2026-11-24"
+      ],
+      "total_price": 100.0,
+      "guest_count": 1,
+      "notes": "",
+      "recorded_by": "",
+      "status": "Confirmed",
+      "created_at": "2026-11-23 19:59:31",
+      "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1003\nStatus               : Confirmed\nCustomer Name        : vkdlsl\nPhone                : 0790078998\nEmail                : eiowfgfw@gmail.com\nPackage              : Day Visit / Picnic\nSelected Date        : 2026-11-24\nReserved / Blocked   : 2026-11-24\nGuests               : 1\nTotal Amount         : R100.00\nNotes                : None\nIssued At            : 2026-11-23 19:59:31\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================",
+      "whatsapp_url": "https://wa.me/27839545203?text=%2AEZIMPANDENI%20RESORT%20-%20NEW%20RESERVATION%20RECEIPT%2A%0A%2ABooking%20ID%3A%2A%20%23EZP-1003%0A%2ACustomer%3A%2A%20vkdlsl%0A%2APhone%3A%2A%200790078998%0A%2AEmail%3A%2A%20eiowfgfw%40gmail.com%0A%2APackage%3A%2A%20Day%20Visit%20/%20Picnic%0A%2ASelected%20Date%3A%2A%202026-11-24%0A%2ADates%20Reserved%3A%2A%202026-11-24%0A%2AGuests%3A%2A%201%0A%2ATotal%20Amount%3A%2A%20R100.00%0A%2ANotes%3A%2A%20None",
+      "email_receipt_status": {
+        "sent": false,
+        "mode": "local_log",
+        "detail": "Receipt prepared for eiowfgfw@gmail.com. Set SMTP_HOST, SMTP_USER, and SMTP_PASS environment variables for live SMTP email dispatch.",
+        "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1003\nStatus               : Confirmed\nCustomer Name        : vkdlsl\nPhone                : 0790078998\nEmail                : eiowfgfw@gmail.com\nPackage              : Day Visit / Picnic\nSelected Date        : 2026-11-24\nReserved / Blocked   : 2026-11-24\nGuests               : 1\nTotal Amount         : R100.00\nNotes                : None\nIssued At            : 2026-11-23 19:59:31\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================"
+      },
+      "receipt_sent": false
+    },
+    {
+      "booking_id": 1004,
+      "reference": "EZP-1004",
+      "full_name": "Khaya Selepe",
+      "email": "Luyandapac01@gmail.com",
+      "phone": "0688558102",
+      "service_id": "photoshoot",
+      "service_title": "Photoshoot Venue",
+      "booking_date": "2026-11-25",
+      "blocked_dates": [
+        "2026-11-25"
+      ],
+      "total_price": 1500.0,
+      "guest_count": 7,
+      "notes": "",
+      "recorded_by": "",
+      "status": "Confirmed",
+      "created_at": "2026-11-23 20:01:18",
+      "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1004\nStatus               : Confirmed\nCustomer Name        : Khaya Selepe\nPhone                : 0688558102\nEmail                : Luyandapac01@gmail.com\nPackage              : Photoshoot Venue\nSelected Date        : 2026-11-25\nReserved / Blocked   : 2026-11-25\nGuests               : 7\nTotal Amount         : R1,500.00\nNotes                : None\nIssued At            : 2026-11-23 20:01:18\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================",
+      "whatsapp_url": "https://wa.me/27839545203?text=%2AEZIMPANDENI%20RESORT%20-%20NEW%20RESERVATION%20RECEIPT%2A%0A%2ABooking%20ID%3A%2A%20%23EZP-1004%0A%2ACustomer%3A%2A%20Khaya%20Selepe%0A%2APhone%3A%2A%200688558102%0A%2AEmail%3A%2A%20Luyandapac01%40gmail.com%0A%2APackage%3A%2A%20Photoshoot%20Venue%0A%2ASelected%20Date%3A%2A%202026-11-25%0A%2ADates%20Reserved%3A%2A%202026-11-25%0A%2AGuests%3A%2A%207%0A%2ATotal%20Amount%3A%2A%20R1%2C500.00%0A%2ANotes%3A%2A%20None",
+      "email_receipt_status": {
+        "sent": false,
+        "mode": "local_log",
+        "detail": "Receipt prepared for Luyandapac01@gmail.com. Set SMTP_HOST, SMTP_USER, and SMTP_PASS environment variables for live SMTP email dispatch.",
+        "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1004\nStatus               : Confirmed\nCustomer Name        : Khaya Selepe\nPhone                : 0688558102\nEmail                : Luyandapac01@gmail.com\nPackage              : Photoshoot Venue\nSelected Date        : 2026-11-25\nReserved / Blocked   : 2026-11-25\nGuests               : 7\nTotal Amount         : R1,500.00\nNotes                : None\nIssued At            : 2026-11-23 20:01:18\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================"
+      },
+      "receipt_sent": false
+    },
+    {
+      "booking_id": 1005,
+      "reference": "EZP-1005",
+      "full_name": "Khaya Selepe",
+      "email": "Luyandapac01@gmail.com",
+      "phone": "0688558102",
+      "service_id": "photoshoot",
+      "service_title": "Photoshoot Venue",
+      "booking_date": "2026-12-01",
+      "blocked_dates": [
+        "2026-12-01"
+      ],
+      "total_price": 1500.0,
+      "guest_count": 7,
+      "notes": "",
+      "recorded_by": "",
+      "status": "Pending",
+      "created_at": "2026-11-23 20:06:28",
+      "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1005\nStatus               : Confirmed\nCustomer Name        : Khaya Selepe\nPhone                : 0688558102\nEmail                : Luyandapac01@gmail.com\nPackage              : Photoshoot Venue\nSelected Date        : 2026-12-01\nReserved / Blocked   : 2026-12-01\nGuests               : 7\nTotal Amount         : R1,500.00\nNotes                : None\nIssued At            : 2026-11-23 20:06:28\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================",
+      "whatsapp_url": "https://wa.me/27839545203?text=%2AEZIMPANDENI%20RESORT%20-%20NEW%20RESERVATION%20RECEIPT%2A%0A%2ABooking%20ID%3A%2A%20%23EZP-1005%0A%2ACustomer%3A%2A%20Khaya%20Selepe%0A%2APhone%3A%2A%200688558102%0A%2AEmail%3A%2A%20Luyandapac01%40gmail.com%0A%2APackage%3A%2A%20Photoshoot%20Venue%0A%2ASelected%20Date%3A%2A%202026-12-01%0A%2ADates%20Reserved%3A%2A%202026-12-01%0A%2AGuests%3A%2A%207%0A%2ATotal%20Amount%3A%2A%20R1%2C500.00%0A%2ANotes%3A%2A%20None",
+      "email_receipt_status": {
+        "sent": false,
+        "mode": "local_log",
+        "detail": "Receipt prepared for Luyandapac01@gmail.com. Set SMTP_HOST, SMTP_USER, and SMTP_PASS environment variables for live SMTP email dispatch.",
+        "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1005\nStatus               : Confirmed\nCustomer Name        : Khaya Selepe\nPhone                : 0688558102\nEmail                : Luyandapac01@gmail.com\nPackage              : Photoshoot Venue\nSelected Date        : 2026-12-01\nReserved / Blocked   : 2026-12-01\nGuests               : 7\nTotal Amount         : R1,500.00\nNotes                : None\nIssued At            : 2026-11-23 20:06:28\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================"
+      },
+      "receipt_sent": false
+    },
+    {
+      "booking_id": 1006,
+      "reference": "EZP-1006",
+      "full_name": "Khayalethu",
+      "email": "luyandapac01@gmail.com",
+      "phone": "757778567585",
+      "service_id": "photoshoot",
+      "service_title": "Photoshoot Venue",
+      "booking_date": "2026-12-02",
+      "blocked_dates": [
+        "2026-12-02"
+      ],
+      "total_price": 1500.0,
+      "guest_count": 1,
+      "notes": "",
+      "recorded_by": "",
+      "status": "Completed",
+      "created_at": "2026-11-23 20:34:42",
+      "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1006\nStatus               : Confirmed\nCustomer Name        : Khayalethu\nPhone                : 757778567585\nEmail                : luyandapac01@gmail.com\nPackage              : Photoshoot Venue\nSelected Date        : 2026-12-02\nReserved / Blocked   : 2026-12-02\nGuests               : 1\nTotal Amount         : R1,500.00\nNotes                : None\nIssued At            : 2026-11-23 20:34:42\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================",
+      "whatsapp_url": "https://wa.me/27839545203?text=%2AEZIMPANDENI%20RESORT%20-%20NEW%20RESERVATION%20RECEIPT%2A%0A%2ABooking%20ID%3A%2A%20%23EZP-1006%0A%2ACustomer%3A%2A%20Khayalethu%0A%2APhone%3A%2A%20757778567585%0A%2AEmail%3A%2A%20luyandapac01%40gmail.com%0A%2APackage%3A%2A%20Photoshoot%20Venue%0A%2ASelected%20Date%3A%2A%202026-12-02%0A%2ADates%20Reserved%3A%2A%202026-12-02%0A%2AGuests%3A%2A%201%0A%2ATotal%20Amount%3A%2A%20R1%2C500.00%0A%2ANotes%3A%2A%20None",
+      "email_receipt_status": {
+        "sent": false,
+        "mode": "local_log",
+        "detail": "Receipt prepared for luyandapac01@gmail.com. Set SMTP_HOST, SMTP_USER, and SMTP_PASS environment variables for live SMTP email dispatch.",
+        "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1006\nStatus               : Confirmed\nCustomer Name        : Khayalethu\nPhone                : 757778567585\nEmail                : luyandapac01@gmail.com\nPackage              : Photoshoot Venue\nSelected Date        : 2026-12-02\nReserved / Blocked   : 2026-12-02\nGuests               : 1\nTotal Amount         : R1,500.00\nNotes                : None\nIssued At            : 2026-11-23 20:34:42\nLocation             : Umzinyathi Bridge, Nqutu, KZN\nContact              : 083 954 5203\n========================================"
+      },
+      "receipt_sent": false
+    },
+    {
+      "booking_id": 1007,
+      "reference": "EZP-1007",
+      "full_name": "Pac man",
+      "email": "luyandapac01@gmail.com",
+      "phone": "890798878674",
+      "service_id": "weddings-functions",
+      "service_title": "Weddings & Functions",
+      "booking_date": "2026-12-04",
+      "blocked_dates": [
+        "2026-12-04",
+        "2026-12-05",
+        "2026-12-06"
+      ],
+      "total_price": 10000.0,
+      "guest_count": 1,
+      "notes": "",
+      "recorded_by": "",
+      "status": "Completed",
+      "created_at": "2026-11-23 20:42:08",
+      "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1007\nStatus               : Confirmed\nCustomer Name        : Pac man\nPhone                : 890798878674\nEmail                : luyandapac01@gmail.com\nPackage              : Weddings & Functions\nSelected Date        : 2026-12-04\nReserved / Blocked   : 2026-12-04, 2026-12-05, 2026-12-06\nGuests               : 1\nTotal Amount         : R10,000.00\nNotes                : None\nIssued At            : 2026-11-23 20:42:08\nLocation             : Nqutu, 3135, Umzinyathi Bridge\nContact              : 083 954 5203\n========================================",
+      "whatsapp_url": "https://wa.me/27839545203?text=%2AEZIMPANDENI%20RESORT%20-%20NEW%20RESERVATION%20RECEIPT%2A%0A%2ABooking%20ID%3A%2A%20%23EZP-1007%0A%2ACustomer%3A%2A%20Pac%20man%0A%2APhone%3A%2A%20890798878674%0A%2AEmail%3A%2A%20luyandapac01%40gmail.com%0A%2APackage%3A%2A%20Weddings%20%26%20Functions%0A%2ASelected%20Date%3A%2A%202026-12-04%0A%2ADates%20Reserved%3A%2A%202026-12-04%2C%202026-12-05%2C%202026-12-06%0A%2AGuests%3A%2A%201%0A%2ATotal%20Amount%3A%2A%20R10%2C000.00%0A%2ANotes%3A%2A%20None",
+      "email_receipt_status": {
+        "sent": true,
+        "mode": "smtp",
+        "detail": "Receipt automatically sent to luyandapac01@gmail.com",
+        "receipt_text": "========================================\n        EZIMPANDENI RESORT RECEIPT\n========================================\nReceipt / Booking ID : #EZP-1007\nStatus               : Confirmed\nCustomer Name        : Pac man\nPhone                : 890798878674\nEmail                : luyandapac01@gmail.com\nPackage              : Weddings & Functions\nSelected Date        : 2026-12-04\nReserved / Blocked   : 2026-12-04, 2026-12-05, 2026-12-06\nGuests               : 1\nTotal Amount         : R10,000.00\nNotes                : None\nIssued At            : 2026-11-23 20:42:08\nLocation             : Nqutu, 3135, Umzinyathi Bridge\nContact              : 083 954 5203\n========================================"
+      },
+      "receipt_sent": true
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "name": "Pac",
+      "email": "hdsgfj@gmail.com",
+      "phone": "012342",
+      "subject": "General Enquiry",
+      "message": "Check message",
+      "created_at": "2026-11-23 01:33:00"
+    }
+  ],
+  "booked_dates": [
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-12-01",
+    "2026-12-02",
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06"
+  ],
+  "booking_counter": 1007,
+  "staff": [
+    {
+      "id": 1,
+      "full_name": "Default Resort Admin",
+      "contact_details": "luyandaadmin1@gmail.com",
+      "is_default": true,
+      "created_at": "2026-01-01 00:00:00",
+      "passcode_salt": "0fc0f3f280027bb0c80ab11c9f336c92",
+      "passcode_hash": "53b39c2ebafc71688ac1cbef5750a12f9a8ad3400c0b9b67d799370800c9b280",
+      "passcode_last2": "11",
+      "email": "luyandaadmin1@gmail.com"
+    },
+    {
+      "id": 3,
+      "full_name": "Pac",
+      "contact_details": "luyandaintern1@gmail.com",
+      "passcode_salt": "9950c08ce5cdb3cd43d036ce4d53c693",
+      "passcode_hash": "3670029304785ae690309d7803cadba575fb1faf5b33b4bec1dcfc8ff4ee0083",
+      "passcode_last2": "33",
+      "is_default": false,
+      "created_at": "2026-11-23 02:45:25",
+      "email": "luyandaintern1@gmail.com"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "b55142ac9d",
+      "title": "IMG-20210920-WA0117_20210927_123156",
+      "category": "Weddings & Functions",
+      "type": "image",
+      "media_type": "image",
+      "filename": "b45b3c886a624b8db2dca2d72b285b04.jpg",
+      "url": "/uploads/gallery/weddings-functions/b45b3c886a624b8db2dca2d72b285b04.jpg",
+      "created_at": "2026-11-23 23:57:41"
+    },
+    {
+      "id": "a28e4aa8db",
+      "title": "20211228_135213",
+      "category": "Weddings & Functions",
+      "type": "image",
+      "media_type": "image",
+      "filename": "97862d5fe5664fd5a9eda4af4efffab2.jpg",
+      "url": "/uploads/gallery/weddings-functions/97862d5fe5664fd5a9eda4af4efffab2.jpg",
+      "created_at": "2026-11-23 23:57:07"
+    },
+    {
+      "id": "34ac995f2f",
+      "title": "20211228_135636",
+      "category": "Weddings & Functions",
+      "type": "image",
+      "media_type": "image",
+      "filename": "8a14bb926b3f462183f6dfdf4a1900cb.jpg",
+      "url": "/uploads/gallery/weddings-functions/8a14bb926b3f462183f6dfdf4a1900cb.jpg",
+      "created_at": "2026-11-23 23:56:45"
+    },
+    {
+      "id": "4cdfdc3466",
+      "title": "20211228_133747",
+      "category": "Weddings & Functions",
+      "type": "image",
+      "media_type": "image",
+      "filename": "fc8a43af16ad4a2c8e623c114b93c12a.jpg",
+      "url": "/uploads/gallery/weddings-functions/fc8a43af16ad4a2c8e623c114b93c12a.jpg",
+      "created_at": "2026-11-23 23:56:33"
+    },
+    {
+      "id": "324f6581ad",
+      "title": "20231216_164713",
+      "category": "Events & Festivals",
+      "type": "image",
+      "media_type": "image",
+      "filename": "41093385684e4e3caf3692313f26fbdf.jpg",
+      "url": "/uploads/gallery/events-festivals/41093385684e4e3caf3692313f26fbdf.jpg",
+      "created_at": "2026-11-23 23:54:43"
+    },
+    {
+      "id": "225df72022a846f0bb257a094fd02232",
+      "title": "20211228_133659",
+      "category": "Weddings & Functions",
+      "type": "image",
+      "url": "/uploads/gallery/weddings-functions/c95c4485da9143788abb016f7a7da1c2.jpg",
+      "created_at": "2026-11-23 02:28:53"
+    }
+  ]
+}
